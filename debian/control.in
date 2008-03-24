@@ -1,0 +1,47 @@
+Source: libcxgb3
+Priority: extra
+Maintainer: Roland Dreier <rolandd@cisco.com>
+Build-Depends: @cdbs@, libibverbs-dev (>= 1.1)
+Standards-Version: 3.7.3
+Section: libs
+Homepage: http://www.openfabrics.org/
+
+Package: libcxgb3-1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A userspace driver for Chelsio T3-based iWARP adapters
+ libcxgb3 is a device-specific driver for Chelsio T3-based iWARP (RDMA
+ over IP/ethernet) adapters for the libibverbs library.  This allows
+ userspace processes to access Chelsio iWARP hardware directly with
+ low latency and low overhead.
+ .
+ This package contains the loadable plug-in.
+
+Package: libcxgb3-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, libcxgb3-1 (= ${binary:Version})
+Description: Development files for the libcxgb3 driver
+ libcxgb3 is a device-specific driver for Chelsio T3-based iWARP (RDMA
+ over IP/ethernet) adapters for the libibverbs library.  This allows
+ userspace processes to access Chelsio iWARP hardware directly with
+ low latency and low overhead.
+ .
+ This package contains static versions of libcxgb3 that may be linked
+ directly to an application, which may be useful for debugging.
+
+Package: libcxgb3-1-dbg
+Section: libdevel
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, libcxgb3-1 (= ${binary:Version})
+Description: Debugging symbols for the libcxgb3 driver
+ libcxgb3 is a device-specific driver for Chelsio T3-based iWARP (RDMA
+ over IP/ethernet) adapters for the libibverbs library.  This allows
+ userspace processes to access Chelsio iWARP hardware directly with
+ low latency and low overhead.
+ .
+ This package contains the debugging symbols associated with
+ libcxgb3-1. They will automatically be used by gdb for debugging
+ libcxgb3-related issues.

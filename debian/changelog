@@ -1,0 +1,5 @@
+libcxgb3 (1.1.4-1) unstable; urgency=low
+
+  * Initial Release.  (Closes: #xxxxxx)
+
+ -- Roland Dreier <rolandd@cisco.com>  Tue, 05 Feb 2008 13:49:52 -0800

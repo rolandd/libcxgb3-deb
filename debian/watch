@@ -1,0 +1,3 @@
+version=3
+opts="uversionmangle=s/-rc/~rc/" \
+  http://www.openfabrics.org/downloads/cxgb3/libcxgb3-(.+)\.tar\.gz
