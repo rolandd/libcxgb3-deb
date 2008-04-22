@@ -1,3 +1,10 @@
+libcxgb3 (1.1.5-2) unstable; urgency=low
+
+  * Update debian/watch file so that -latest tarball link doesn't look
+    like a new upstream release.
+
+ -- Roland Dreier <rolandd@cisco.com>  Tue, 22 Apr 2008 12:22:20 -0700
+
 libcxgb3 (1.1.5-1) unstable; urgency=low
 
   * Initial Release.  (Closes: #474069)
