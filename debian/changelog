@@ -1,9 +1,12 @@
-libcxgb3 (1.1.5-2) unstable; urgency=low
+libcxgb3 (1.2.2-1) unstable; urgency=low
 
+  * New upstream release.
+    - Handle firmware versions 5.x through 7.x (kernels 2.6.25 to at
+      least 2.6.27, and possibly newer).
   * Update debian/watch file so that -latest tarball link doesn't look
     like a new upstream release.
 
- -- Roland Dreier <rolandd@cisco.com>  Tue, 22 Apr 2008 12:22:20 -0700
+ -- Roland Dreier <rolandd@cisco.com>  Fri, 08 Aug 2008 14:25:17 -0700
 
 libcxgb3 (1.1.5-1) unstable; urgency=low
 
