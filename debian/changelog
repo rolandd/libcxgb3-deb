@@ -1,3 +1,9 @@
+libcxgb3 (1.2.2-2) unstable; urgency=low
+
+  * Update to Standards-Version: 3.8.2.
+
+ -- Roland Dreier <rolandd@cisco.com>  Wed, 24 Jun 2009 11:40:45 -0700
+
 libcxgb3 (1.2.2-1) unstable; urgency=low
 
   * New upstream release.
