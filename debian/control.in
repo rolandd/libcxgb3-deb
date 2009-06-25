@@ -32,7 +32,7 @@ Description: Development files for the libcxgb3 driver
  directly to an application, which may be useful for debugging.
 
 Package: libcxgb3-1-dbg
-Section: libdevel
+Section: debug
 Priority: extra
 Architecture: any
 Depends: ${misc:Depends}, libcxgb3-1 (= ${binary:Version})
