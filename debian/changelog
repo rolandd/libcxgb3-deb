@@ -1,3 +1,9 @@
+libcxgb3 (1.2.2-3) unstable; urgency=low
+
+  * Fix debian/watch file to avoid bad uversionmangle pattern.
+
+ -- Roland Dreier <roland@digitalvampire.org>  Wed, 20 Apr 2011 11:32:26 -0700
+
 libcxgb3 (1.2.2-2) unstable; urgency=low
 
   * Update to Standards-Version: 3.8.2.
