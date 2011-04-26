@@ -1,8 +1,13 @@
-libcxgb3 (1.2.2-3) unstable; urgency=low
+libcxgb3 (1.3.0-1) unstable; urgency=low
 
+  * New upstream release.
+    - Support device IDs 0x35 and 0x36.
+    - Support sq_sig_all QP attribute.
+    - Other fixes.
   * Fix debian/watch file to avoid bad uversionmangle pattern.
+  * Switch to dpkg-source 3.0 (quilt) format.
 
- -- Roland Dreier <roland@digitalvampire.org>  Wed, 20 Apr 2011 11:32:26 -0700
+ -- Roland Dreier <roland@digitalvampire.org>  Tue, 26 Apr 2011 09:58:08 -0700
 
 libcxgb3 (1.2.2-2) unstable; urgency=low
 
