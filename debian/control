@@ -1,7 +1,7 @@
 Source: libcxgb3
 Priority: extra
 Maintainer: Roland Dreier <rolandd@cisco.com>
-Build-Depends: @cdbs@, libibverbs-dev (>= 1.1)
+Build-Depends: autoconf, automake, libtool, debhelper (>= 7.0.50~), dpkg-dev (>= 1.13.19), libibverbs-dev (>= 1.1)
 Standards-Version: 3.8.2
 Section: libs
 Homepage: http://www.openfabrics.org/
@@ -10,7 +10,7 @@ Package: libcxgb3-1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: A userspace driver for Chelsio T3-based iWARP adapters
+Description: Userspace driver for Chelsio T3-based iWARP adapters
  libcxgb3 is a device-specific driver for Chelsio T3-based iWARP (RDMA
  over IP/ethernet) adapters for the libibverbs library.  This allows
  userspace processes to access Chelsio iWARP hardware directly with
