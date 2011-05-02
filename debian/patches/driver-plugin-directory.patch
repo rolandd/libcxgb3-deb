@@ -1,0 +1,7 @@
+Index: libcxgb3-1.3.0/cxgb3.driver
+===================================================================
+--- libcxgb3-1.3.0.orig/cxgb3.driver	2011-04-29 10:31:45.046038585 -0700
++++ libcxgb3-1.3.0/cxgb3.driver	2011-04-29 10:31:57.666016195 -0700
+@@ -1 +1 @@
+-driver cxgb3
++driver /usr/lib/libibverbs/libcxgb3

@@ -1,2 +1,2 @@
-usr/lib/libcxgb3-rdmav2.so
+usr/lib/libcxgb3-rdmav2.so		/usr/lib/libibverbs/
 etc/libibverbs.d/cxgb3.driver
