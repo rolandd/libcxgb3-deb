@@ -9,9 +9,10 @@ libcxgb3 (1.3.0-1) unstable; urgency=low
   * Fix debian/watch file to avoid bad uversionmangle pattern.
   * Switch to dpkg-source 3.0 (quilt) format.
   * Change build system from cdbs to debhelper 7.
-  * Set DM-Upload-Allowed to yes.
+  * Update maintainer and set DM-Upload-Allowed to yes.  (Closes: #632105)
+  * Update to Standards-Version: 3.9.2.
 
- -- Roland Dreier <roland@digitalvampire.org>  Mon, 02 May 2011 11:57:09 -0700
+ -- Roland Dreier <roland@digitalvampire.org>  Wed, 06 Jul 2011 23:39:20 -0700
 
 libcxgb3 (1.2.2-2) unstable; urgency=low
 
