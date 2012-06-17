@@ -1,3 +1,10 @@
+libcxgb3 (1.3.1-1) unstable; urgency=low
+
+  * New upstream release.
+    - Don't reflush QP that's already flushed.
+
+ -- Roland Dreier <rbd@debian.org>  Sat, 16 Jun 2012 17:42:31 -0700
+
 libcxgb3 (1.3.0-1) unstable; urgency=low
 
   * New upstream release.
